@@ -1,0 +1,85 @@
+body {
+    background-image: url('/travelBackground.jpg');
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+
+  /* 🔹 Navbar container */
+  .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #0d6efd;
+    color: white;
+    padding: 10px 20px;
+  }
+
+  /* 🔹 Left: Logo + Company name */
+  .logoSection {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .logoSection img {
+    width: 40px;
+    height: 40px;
+  }
+
+  .companyName {
+    font-size: 1.3em;
+    font-weight: bold;
+  }
+
+  /* Middle: Navigation links */
+  .navLinks {
+    display: flex;
+    gap: 20px;
+  }
+
+  .navLinks a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+  }
+
+  .navLinks a:hover {
+    text-decoration: underline;
+  }
+
+  /* Right: Search bar + buttons */
+  .searchSection {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+  }
+
+  .searchSection input[type="text"] {
+    padding: 6px 10px;
+    border: none;
+    border-radius: 4px;
+    width: 180px;
+    font-size: 14px;
+  }
+
+  .searchSection button {
+    padding: 6px 10px;
+    border: none;
+    border-radius: 4px;
+    font-size: 14px;
+    cursor: pointer;
+  }
+
+  .searchBtn {
+    background-color: #198754;
+    color: white;
+  }
+
+  .resetBtn {
+    background-color: #dc3545;
+    color: white;
+  }
+
+  .searchSection button:hover {
+    opacity: 0.9;
+  }
