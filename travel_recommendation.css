@@ -1,5 +1,8 @@
 body {
-    background-image: url('./travelBackground.jpg');
+    background: 
+    linear-gradient(rgba(255,255,255,0.2), rgba(255,255,255,0.2)),
+    url('./travelBackground.jpg') no-repeat center center/cover;
+
     margin: 0;
     font-family: Arial, sans-serif;
     color: white;
@@ -132,3 +135,7 @@ body {
     color: white;
     opacity: 0.75;
   }
+
+.contactSection{
+    opacity: 0.85;
+}

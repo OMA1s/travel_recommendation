@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Travel Recommendations!</title>
+  <link rel="stylesheet" href="./travel_recommendation.css">
+  <style>
+  </style>
+</head>
+<body>
+    <div class="socialSidebar">
+        <a href="#"><img src="./facebook.png" alt="Facebook"></a>
+        <a href="#"><img src="./twitter.png" alt="Twitter"></a>
+        <a href="#"><img src="./insta.jpg" alt="Instagram"></a>
+        <a href="#"><img src="./youtube.jpg" alt="Youtube"></a>
+      </div>
+      
+    <nav class="navbar">
+        <div class="logoSection">
+          <img src="./logo.jpg" alt="Logo">
+          <span class="companyName">Dream Travels</span>
+        </div>
+    
+        
+        <div class="navLinks">
+            <ul>
+              <li><a href="./travel_recommendation.html" id="home">Home </a></li>
+              <li><a href="./about_us.html" id="about">About Us </a></li>
+              <li><a href="./contact_us.html" id="contact">Contact Us </a></li>
+          
+            </ul>
+        </div>
+      </nav>
+    <div class="main">
+        <h1>CONTACT US</h1>
+        <p>Get in touch...</p>
+      <div class="contactSection">
+          <form id="contactForm">
+          <div>
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required>
+          </div>
+          <div>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+          </div>
+          <div>
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+          </div>
+          <button type="submit" onclick="thankyou()">Submit</button>
+          </form>
+        </div>
+        <script>
+          function thankyou(){
+              alert('Thank you for contacting us!')
+          }
+        </script>
+    </div>
+</body>
+</html>
