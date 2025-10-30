@@ -1,7 +1,7 @@
 body {
     background: 
     linear-gradient(rgba(255,255,255,0.2), rgba(255,255,255,0.2)),
-    url('./travelBackground.jpg') no-repeat center center/cover;
+    url('./images/travelBackground.jpg') no-repeat center center/cover;
 
     margin: 0;
     font-family: Arial, sans-serif;
